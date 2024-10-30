@@ -187,3 +187,61 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+      width: 90%;
+  }
+
+  #mainly h1 {
+    font-size: 30px; 
+  }
+
+  header nav {
+    float: none;
+  }
+
+  header ul {
+    padding: 10px;
+  }
+
+  header li {
+    display: block;
+    padding: 7px 20px;
+  }
+
+  #showcase {
+    padding: 30px;
+  }
+
+  #showcase h1 {
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .about-container, .video-container {
+    flex-direction: column;
+  }
+
+  .about-text, .about-image {
+    padding: 0;
+    text-align: center;
+  }
+
+  .media {
+    max-width: 90%;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 17px;
+    text-align: left;
+  }
+}
