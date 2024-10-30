@@ -211,7 +211,8 @@ nav a {
   }
 
   #showcase {
-    padding: 30px;
+    padding: 10px;
+    padding-top: 50px;
   }
 
   #showcase h1 {
@@ -246,3 +247,37 @@ nav a {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+      width: 90%;
+  }
+
+  #mainly h1 {
+    font-size: 50px; 
+  }
+
+  header a {
+    font-size: 20px;
+  }
+
+  #showcase {
+    padding: 30px;
+    padding-top: 50px;
+  }
+
+  header li {
+      padding: 0 15px;
+  }
+
+  .about-text {
+    font-size: 25px;
+  }
+  
+  .video-container {
+      flex-direction: row;
+  }
+
+  .media {
+      max-width: 350px;
+  }
+}
