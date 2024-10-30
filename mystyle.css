@@ -1,0 +1,189 @@
+body {
+    font-family: Garamond, serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  
+  header {
+    background: #A4B5D5;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #F7F6F5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: color 0.5s ease;
+  }
+
+  header a:hover {
+    color: #705ec4;
+}
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+  }
+
+  header nav {
+    float: right;
+    margin-top: 0;
+    padding: 20px 0;
+  }
+
+  header #mainly {
+    float: left;
+  }
+  
+  header #mainly h1 {
+    margin: 0;
+  }
+  
+  #showcase {
+    min-height: 50px;
+    background: url(../resources/purple_star.png) -10px -10px;
+    color: #d69fca;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  #showcase h1 {
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  #main {
+    margin-top: 10px;
+    padding: 0;
+    color: #6b2465;
+    text-align: left;
+  }
+
+  #main h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #main h3 {
+    color: #972872;
+    font-family: "Prompt", sans-serif;
+  }
+  
+  footer {
+    background: #f3c4e6;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .media {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: #d69fca; 
+    text-shadow: 1px 1px 2px rgb(94, 40, 91); 
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+section {
+    background-color: #d5cbe6; 
+    margin: 20px 0px;
+    padding: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+section h2 {
+    color: #5e35b1;
+    text-shadow: #ffffff;
+    font-family: "Prompt", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section p {
+    color: #77215a;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
