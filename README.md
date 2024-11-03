@@ -1,5 +1,5 @@
 6606612072_MyCSTUStory
-Jinnaphat Thongsuwan 6606612072 Assignment 2
+Jinnaphat Thongsuwan 6606612072 Assignment 3
 
 1. index.html
     - แนะนำตัว ชื่อ-นามสกุล คณะ รหัสนักศึกษา
